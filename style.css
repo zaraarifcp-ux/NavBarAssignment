@@ -200,7 +200,7 @@ h1 {
 
 /* Faislabad */
 .fsbd img{display: flex;
-    width: 500px;;}
+    width: 500px;}
     
 
     
@@ -372,16 +372,16 @@ small{
     color: white;
     
      padding-bottom: 30px;
-    padding-top: 30px;
+    padding-top: 0px;
+    
     
     font-family: apercu;
-    /* font-size: 14px; */
+    
     
     
     display: flex;
-    flex-direction: column; */
-    /* padding-left: 40px;
-     */
+    
+    
     
     
 }
@@ -390,23 +390,32 @@ small{
     
     text-decoration: none;
     display: flex;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    /* gap: 30px; */
-    margin-top: 30px;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-size: 13px;
+   font-weight: 50px;
+   gap: 15px;
+    margin-top: 20px;
     color: white;
     list-style: none;
-    /* margin-left: 10px; */
+   
     cursor: pointer;
+}
+footer{
+    align-items: center;
 }
 .foot{
     width: 200px;
+    
 }
 .foot img{
-    width: 100%;
+    width: 70%;
     text-decoration: none;
-    gap: 20px;
+    
+    
+    
     margin-top: 80px;
     margin-left: 40px;
+    
 
 }
 h3{
@@ -415,17 +424,101 @@ h3{
 
 .site{
     text-decoration: none;
+    margin-bottom: 15px;
+    
 }
+
+
+
+
 .info{
     color: white;
     text-align: center;
+    justify-content: center;
 }
-.footer{
+footer{
     display: flex;
     justify-content: space-around;
-    margin-top: 80px;
+    margin-top: 40px;
 }
+.links{
+    display: flex;
+}
+.fb{
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    margin-top: 30px;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50px;
+}
+.fb a i{
+    color: white;
+    font-size: 17px;
+    
+     
 
+}
+.insta{
+     display: flex;
+    align-items: center;
+    margin-right: 8px;
+    margin-top: 30px;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50px;
+    
 
-
+}
+.insta a i{
+    display: flex;
+    color: white;
+    font-size: 21px;
+   align-items: center;
+   padding-left: 5px;
+    text-decoration: none;
+}
+a{ text-decoration: none;}
+.twitter{
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    margin-top: 30px;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50px;
+}
+.twitter a i {
+     color: white;
+    font-size: 17px;
+    
+}
+ ul li a {
+    color: white;
+    
+ }
  
+ .last{
+    margin-bottom: 180px;
+ }
+ .google{
+    margin-top: 40px;
+ }
+ .snp{
+    color: white;
+    display: flex;
+    /* gap: 300px; */
+    justify-content: space-between;
+    padding: 50px;
+ }
+ .snp a{
+    text-decoration: none;
+    color: white;
+ }
